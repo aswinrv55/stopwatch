@@ -1,0 +1,64 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-image:url("https://www.nsbpictures.com/wp-content/uploads/2020/04/sunset-hd-background-photos-12-scaled.jpg");
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.stopwatch-container {
+  background-image:url("https://i.pinimg.com/736x/5d/46/14/5d4614c012b3440de05390c653c59d91.jpg");
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  margin: auto;
+}
+
+.time-display {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+.buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+}
+
+.history {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.history ul {
+  list-style: none;
+  padding: 0;
+}
+
+.history li {
+  background: #eee;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .stopwatch-container {
+    width: 90%;
+  }
+
+  .buttons button {
+    width: 100px;
+    margin: 5px 0;
+  }
+}
